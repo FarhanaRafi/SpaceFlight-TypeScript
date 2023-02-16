@@ -5,8 +5,8 @@ import logo from "../assets/logo.png"
 const Navbar = () => {
     return (
         <header className="bg-violet-800">
-      <nav className="mx-auto max-w-8xl px-7 lg:px-8" aria-label="Top">
-        <div className="flex w-full items-center justify-between border-b border-indigo-500 py-6 lg:border-none">
+      <nav className="mx-auto max-w-8xl px-9 lg:px-10" aria-label="Top">
+        <div className="flex w-full items-center justify-between border-b border-indigo-500 py-2 lg:border-none">
           <div className="flex items-center">
             <a href="#r">
               <span className="sr-only">Your Company</span>
