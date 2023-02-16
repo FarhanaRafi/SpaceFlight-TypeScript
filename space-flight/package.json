@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mongez/react-components": "^1.0.8",
     "@heroicons/react": "^2.0.15",
     "@material-tailwind/react": "^1.4.2",
     "@testing-library/jest-dom": "^5.16.5",

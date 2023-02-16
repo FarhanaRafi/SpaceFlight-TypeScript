@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Details from './components/Details';
 import Footer from './components/Footer';
+import NotFoundPage from "./components/NotFoundPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Navbar/>
       <Routes>
       <Route path='/' element= {<Header />} />
+      <Route element={<NotFoundPage />} path="*" />
      
      </Routes>
      <Routes>
