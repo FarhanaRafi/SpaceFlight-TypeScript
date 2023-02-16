@@ -1,6 +1,7 @@
 import { Card} from 'react-bootstrap'
 import { ISpace } from '../interfaces/ISpace';
-import { format, compareAsc } from 'date-fns'
+import { format } from 'date-fns'
+import { Link } from "react-router-dom";
 
 
 interface SpaceComponentProps{
@@ -12,7 +13,9 @@ const SpaceComponent = (props : SpaceComponentProps) => {
       
         
         <Card className='mb-4'>
+            <Link to={"/details/" + props.space.id}>
         <Card.Img variant="top" src={props.space.imageUrl} style={{height:"190px"}} />
+        </Link>
         <Card.Body>
           <Card.Title className='title'>{props.space.title}</Card.Title>
           <Card.Text>
