@@ -32,7 +32,7 @@ const FetchNews = () => {
         <Container>
             <Row>
                 <Col>
-                <h2>News</h2>
+                <h2 className='mt-4 mb-3 '>Latest In Space </h2>
                 </Col>
             </Row>
             <Row>

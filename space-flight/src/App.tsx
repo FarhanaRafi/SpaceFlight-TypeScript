@@ -16,12 +16,13 @@ function App() {
       <Navbar/>
       <Routes>
       <Route path='/' element= {<Header />} />
-      <Route element={<NotFoundPage />} path="*" />
+      
      
      </Routes>
      <Routes>
     <Route path='/' element= {<FetchNews />} />
     <Route path='/details/:id' element={<Details />} />
+    <Route element={<NotFoundPage />} path="*" />
      </Routes>
      <Footer />
     </div>

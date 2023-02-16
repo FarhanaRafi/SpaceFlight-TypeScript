@@ -43,6 +43,10 @@
   text-overflow: ellipsis;
 }
 
+.card-style{
+  border-radius: 2em;
+  border: none;
+}
 
 .card-h:hover{
   transform: scale(1.2);
@@ -50,4 +54,5 @@
   transition: 400ms ease;
   background-color: rgb(59, 59, 59);
   color: white;
+  border-radius:  10px;
 }

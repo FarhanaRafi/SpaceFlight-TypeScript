@@ -17,7 +17,7 @@ const SpaceComponent = (props : SpaceComponentProps) => {
         <Card.Img variant="top" src={props.space.imageUrl} style={{height:"190px"}} />
         </Link>
         { props.space.featured ?<Badge variant="danger" >Exclusive</Badge>: ""}
-        <Card.Body>
+        <Card.Body className='card-style'>
           <Card.Title className='title'>{props.space.title}</Card.Title>
           <Card.Text>
             {props.space.newsSite} - {props.space.featured}
