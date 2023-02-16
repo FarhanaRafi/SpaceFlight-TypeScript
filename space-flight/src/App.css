@@ -43,3 +43,11 @@
   text-overflow: ellipsis;
 }
 
+
+.card-h:hover{
+  transform: scale(1.2);
+  z-index: 1;
+  transition: 400ms ease;
+  background-color: rgb(59, 59, 59);
+  color: white;
+}

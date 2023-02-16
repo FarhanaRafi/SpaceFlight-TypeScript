@@ -89,7 +89,7 @@ useEffect(()=>{
           <div className="mt-8 lg:mt-0">
           <p>
               <strong>
-              {format(new Date(news.publishedAt), 'dd-MM-yyyy')}
+              {format(new Date(news.publishedAt), 'do MMMM yyyy')}
               </strong>
               </p>
             <div className="mx-auto max-w-prose text-base lg:max-w-none">

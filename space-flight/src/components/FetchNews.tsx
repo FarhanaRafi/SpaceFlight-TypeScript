@@ -38,7 +38,7 @@ const FetchNews = () => {
             <Row>
                 {news.map((n)=>{
                     return(
-                    <Col xs={12} md={4} lg={3} className="text-dark">
+                    <Col xs={12} md={4} lg={3} className="text-dark" key={n.id}>
                         <SpaceComponent space={n}/>
                     </Col>)
                 })}
