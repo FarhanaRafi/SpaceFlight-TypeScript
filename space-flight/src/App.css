@@ -44,8 +44,9 @@
 }
 
 .card-style{
-  border-radius: 2em;
-  border: none;
+  background-color: #98abd3;
+  color: aliceblue;
+  
 }
 
 .card-h:hover{
@@ -54,5 +55,6 @@
   transition: 400ms ease;
   background-color: rgb(59, 59, 59);
   color: white;
-  border-radius:  10px;
+  border-radius:  5px;
+  border: none;
 }
